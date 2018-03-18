@@ -1,0 +1,21 @@
+<div class="list">
+  <header>
+    <section>
+      <label for="l1">todolist</label>
+      <input type="text" [(ngModel)]="data" >
+      <button (click)="add()">添加数据</button>
+    </section>
+  </header>
+    <h1 class="l11">正在进行</h1>
+    <ul>
+      <li *ngFor="let item of dataArr; let i =index">
+          <input type="checkbox" (change)="changeData(i)">{{item}}<button (click)="delete(i)">删除</button>
+        </li>
+    </ul>
+    <h1 class="l12">已完成</h1>
+    <ul>
+        <li *ngFor="let item of dataA">
+            <input type="checkbox" checked>item<button (click)="deleteA()">删除</button>
+          </li>
+    </ul>
+</div>
