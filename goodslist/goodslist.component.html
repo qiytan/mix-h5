@@ -1,0 +1,11 @@
+<h2>商品列表展示</h2>
+<ul>
+ <li *ngFor="let item of dataList;let i=index;" (click)="goDetail(i)">
+   <img [src]="item.goodsListImg">
+  <div>
+     <span class="right">￥{{item.price}}</span>
+    <p>{{item.goodsName}}</p>
+   </div>
+  <!-- <a [routerLink]="['/gooddetail/',i]">{{item}}</a> -->
+ </li>
+</ul> 
