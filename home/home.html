@@ -1,0 +1,98 @@
+<ion-header class="header">
+  <ion-navbar color="yel">
+    <button ion-button icon-only menu-toggle="left">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title class="logo"><img src="../assets/imgs/loge.png" style="height:30px;"></ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only >
+        <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<div style="width:100%;margin-top:100px">
+  <ion-slides>
+      <ion-slide>
+       <img src="../../assets/imgs/lun1.png" style="width:100%">
+      </ion-slide>
+      <ion-slide>
+        <img src="../../assets/imgs/lun1.png" style="width:100%">
+      </ion-slide>
+      <ion-slide>
+        <img src="../../assets/imgs/lun1.png" style="width:100%">
+      </ion-slide>
+  </ion-slides>
+  <ion-segment [(ngModel)]="icones" color="yel">
+    <ion-segment-button value="camera" >
+      找信息
+    </ion-segment-button>
+    <ion-segment-button value="bookmark">
+      找服务
+    </ion-segment-button>
+  </ion-segment>
+  <ul>
+    <li>
+      <img src="../assets/imgs/icon1.png" class="list-img"><br/>
+      <p>资产包转让</p>
+    </li>
+    <li>
+      <img src="../assets/imgs/icon2.png" class="list-img"><br/>
+      <p>债权转让</p>
+    </li>
+    <li>
+      <img src="../assets/imgs/icon3.png" class="list-img"><br/>
+      <p>固产转让</p>
+    </li>
+    <li>
+      <img src="../assets/imgs/icon4.png" class="list-img"><br/>
+      <p>商业保理</p>
+    </li>
+  </ul>
+  <ul>
+      <li>
+        <img src="../assets/imgs/icon5.png" class="list-img"><br/>
+        <p>典当担保</p>
+      </li>
+      <li>
+        <img src="../assets/imgs/icon6.png" class="list-img"><br/>
+        <p>融资借贷</p>
+      </li>
+      <li>
+        <img src="../assets/imgs/icon7.png" class="list-img"><br/>
+        <p>悬赏信息</p>
+      </li>
+      <li>
+        <img src="../assets/imgs/icon8.png" class="list-img"><br/>
+        <p>尽职调查</p>
+      </li>
+    </ul>
+    <br/>
+    <ion-list>
+      <ion-list-header class="con-header">
+        <h1>
+          <img src="../assets/img/star.png" class="img-star">
+          优质信息
+        </h1>
+      </ion-list-header>
+      <ion-item class="item">
+        <p>资产包转让 —FBOO1</p>
+        <ion-thumbnail item-start>
+          <img src="../assets/img/icon1.png">
+        </ion-thumbnail>
+        <div class="item1">
+          <p>北京：<span>北京</span></p>
+          <p>来源：<span>银行</span></p>
+          <p>资产包类型：<span>抵押</span></p>
+        </div>
+        <div class="item2">
+          <p class="money">500万</p>
+          <p>总金额</p>
+        </div>
+        <div class="item2">
+          <p class="money">300万</p>
+          <p>转让价</p>
+        </div>
+        <ion-icon name="arrow-forward" class="right" item-end></ion-icon>
+      </ion-item>
+    </ion-list>

@@ -1,0 +1,51 @@
+page-home {
+    header{
+        height: 120px;
+    }
+    header #logo{
+        width:160px;
+        height:60px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    ul{
+        display: flex;
+    }
+    ul li{
+        list-style: none;
+        height: 94px;
+        border:0.55px solid #c8c7cc;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .list-img{
+        width: 30px;
+        height:30px;
+    }
+    .item1{
+        float: left;
+        width: 110px;
+       
+    }
+    .item2{
+        float: left;
+        width: 50px;
+        margin-left: 10px;
+    }
+    .item2 .money{
+      font-size: 20px;
+      color: red;
+    }
+    .right{
+        font-size: 40px;
+        color: gray;
+        font-weight: lighter;
+    }
+}
