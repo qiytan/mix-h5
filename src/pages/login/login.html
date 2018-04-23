@@ -1,0 +1,24 @@
+<ion-content padding class="loginbg">
+  <div class="loginheader">
+    <img src="assets/imgs/left.png" alt="" class="back">
+    <p class="logintitle">登&nbsp;录</p>
+  </div>
+  <div class="loginheader">
+    <img src="assets/imgs/logo2.png" alt="" class="logo">
+  </div>
+    <p class="title">全球不良资产超级综合服务平台</p>
+    <div class="contentbox">
+      <form action="post">
+        <label for=""><img src="assets/imgs/ion3.png" alt="" class="labelimg">&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" placeholder="请输入您的手机号" name="userid" class="userid">
+        <br/>
+        <br/>
+        <br/>
+        <label for=""><img src="assets/imgs/ion1.png" alt=""  class="labelimg">&nbsp;&nbsp;&nbsp;</label>
+        <input type="password" placeholder="请输入您的密码" name="password" class="password">
+      </form>
+      <button class="loginbtn" ion-button>登&nbsp;录</button>
+      <button class="registerbtn" (click)="openModal()" ion-button>注&nbsp;册</button>
+      <p class="forgetpw">忘记密码？</p>
+    </div>
+</ion-content>

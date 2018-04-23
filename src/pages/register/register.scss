@@ -1,0 +1,126 @@
+page-register {
+    .registerbg{
+        background-image:url(../../assets/imgs/loginbg.png);
+        background-size:100% 100%;
+        text-align: center;
+      }
+      .registerheader{
+        width:100%;
+        clear: both;
+    }
+    .registertitle{
+        color:#fff;
+        font-size:24px;
+        font-weight:lighter;
+        margin-top:25px;
+        float: left;
+        width:80%;
+        text-align: center;
+    }
+    .back{
+        margin-top:25px;
+        margin-left:8%;
+        width:3%;
+        height:22px;
+        float: left;
+  
+  
+    }
+    .contentbox{
+      width:100%;
+      clear:both;
+      margin-top:120px;
+    }
+    .labelimg{
+        width:25px;
+        height:27px;
+        
+    }
+    label{
+    // border-bottom:1px solid #fff;
+    width:30px;
+    height:30px;
+    text-align: center;
+    }
+    ::-webkit-input-placeholder{
+        color:#fff;
+        font-weight: lighter;
+    }
+    .userid{
+        width:80%;
+        height:35px;
+        border:none;  
+        background-color:transparent;  
+        border-bottom: 1px  solid #fff;
+        font-size:18px;
+        padding-left: 10px;
+        color:#fff;
+        vertical-align:bottom;
+        // padding-bottom:3px;
+        // padding-left:40px;
+        // background:url("../../assets/imgs/ion5.png") no-repeat  left center ; 
+      }
+      .check{
+        width:48%;
+        height:35px;
+        border:none;  
+        background-color:transparent;  
+        border-bottom: 1px  solid #fff;
+        font-size:18px;
+        padding-left: 10px;
+        color:#fff;
+        vertical-align:bottom;
+        margin-top:40px;
+      }
+        // .icon-user{
+        //     position: absolute;
+        //     left: 0;
+        //     z-index: 5;
+        //     background-image: url(../../assets/imgs/ion5.png);
+        //     background-repeat: no-repeat;
+        //     background-position: 0px 0px;
+        //     width: 25px;
+        //     height: 27px;
+        // }
+        .checkbtn{
+            width:30%;
+            height: 35px;
+            background-color: #fedb47;
+            border-radius: 10px;
+        }
+        .pwd{
+            width:80%;
+            height:35px;
+            border:none;  
+            background-color:transparent;  
+            border-bottom: 1px  solid #fff;
+            font-size:18px;
+            padding-left: 10px;
+            color:#fff;
+            vertical-align:bottom;
+            margin-top:40px;
+          }
+          .registerbtn{
+            background-color:#fedb47;
+            width:85%;
+            border-radius:30px;
+           height: 50px;
+           font-size: 20px;
+           margin-top:30px;
+        }
+        .agree{
+            margin-top:15px;
+            color:#fff;
+            font-size:15px;
+            font-weight:lighter;
+        }
+        .check1{
+            width:20px;
+            height:20px;
+        
+        }
+        .check:after{
+            background-color: #fedb47;
+        }
+        
+}

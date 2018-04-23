@@ -1,0 +1,21 @@
+
+<ion-menu [content]="mycontent">
+        <ion-content>
+          <ion-list>
+            <div style="width:100%;height:220px;background-color:#fedb47">
+           <img src="assets/imgs/tu1.jpg" alt="" style="width:70px;height:70px;border-radius:35px;float:left;margin-top:120px;margin-left:30px;">
+           <p style="float:left;font-size:20px;margin-top:140px;margin-left:20px;">我的昵称</p>
+          </div>
+          <ul>
+            <li>了解会员特权</li>
+            <li>我的钱包</li>
+            <li>个性装扮</li>
+            <li>我的的收藏</li>
+            <li>免流量特权</li>
+          </ul>
+          </ion-list>
+          <button ion-button menuClose full round style="background-color:#fedb47">close</button>
+        </ion-content>
+ </ion-menu>
+      
+<ion-nav #mycontent [root]="rootPage"></ion-nav>

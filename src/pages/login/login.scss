@@ -1,0 +1,108 @@
+page-login {
+
+  .loginbg{
+    background-image:url(../../assets/imgs/loginbg.png);
+    background-size:100% 100%;
+    text-align: center;
+  }
+  .loginheader{
+      width:100%;
+      clear: both;
+  }
+  .logintitle{
+      color:#fff;
+      font-size:24px;
+      font-weight:lighter;
+      margin-top:25px;
+      float: left;
+      width:80%;
+      text-align: center;
+  }
+  .loginbar{
+      opacity: 0!important;
+  }
+  .back{
+      margin-top:25px;
+      margin-left:8%;
+      width:3%;
+      height:22px;
+      float: left;
+
+
+  }
+  .logo{
+      width:170px;
+      height: 50px;
+      margin-top:30px;
+      clear: both;
+  }
+  .title{
+    color:#fff;
+    font-size:18px;
+    margin-top:2px;
+    clear:both;
+    font-weight: lighter;
+  }
+  .contentbox{
+      width:100%;
+      clear:both;
+      margin-top:70px;
+    //   background-color: red;
+  }
+  .labelimg{
+      width:30px;
+      height:30px;
+  }
+  ::-webkit-input-placeholder{
+      color:#fff;
+      font-weight: lighter;
+  }
+  .userid{
+    width:70%;
+    height:30px;
+    border:none;  
+    background-color:transparent;  
+    border-bottom: 1px  solid gray;
+    font-size:18px;
+    padding-left: 10px;
+    color:#fff;
+    vertical-align:bottom;
+  }
+  .password{
+    width:70%;
+    height:30px;
+    border:none;  
+    background-color:transparent;  
+    border-bottom: 1px  solid gray;
+    font-size:18px;
+    padding-left: 10px;
+    color:#fff;
+    vertical-align:bottom
+  }
+  .loginbtn{
+      background-color:#fedb47;
+      width:80%;
+      border-radius:30px;
+     height: 50px;
+     font-size: 20px;
+     margin-top:30px;
+  }
+  .registerbtn{
+    border:solid 1px #fedb47;
+    width:80%;
+    border-radius:30px;
+   height: 50px;
+   font-size: 20px;
+   margin-top:20px;
+   color:#fedb47;
+   background-color:transparent;
+
+}
+.forgetpw{
+    margin-top:15px;
+    color:#fff;
+    font-size:18px;
+    font-weight:lighter;
+}
+
+}
